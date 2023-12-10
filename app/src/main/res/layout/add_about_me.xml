@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/edit_text_rounded_corner"
+    android:padding="24dp">
+
+
+    <EditText
+        android:id="@+id/culinary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="culinary journey"
+        android:textColorHint="#5C5C5C"
+        android:textSize="16sp"
+        android:backgroundTint="#5C91C56F"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_rounded_corner"/>
+
+    <EditText
+        android:id="@+id/favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="favorite recipes"
+        android:textColorHint="#5C5C5C"
+        android:textSize="16sp"
+        android:backgroundTint="#5C91C56F"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_rounded_corner"/>
+
+    <EditText
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="food philosophy"
+        android:textColorHint="#5C5C5C"
+        android:textSize="16sp"
+        android:backgroundTint="#5C91C56F"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_rounded_corner"/>
+
+</LinearLayout>

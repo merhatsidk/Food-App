@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipe Name"
+        android:textColorHint="#5C5C5C"
+        android:textSize="16sp"
+        android:backgroundTint="#5C91C56F"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_rounded_corner"/>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Discription"
+        android:textColorHint="#5C5C5C"
+        android:textSize="16sp"
+        android:backgroundTint="#5C91C56F"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_rounded_corner"/>
+
+    <EditText
+        android:id="@+id/editTextCookingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cooking Time"
+        android:textColorHint="#5C5C5C"
+        android:textSize="16sp"
+        android:backgroundTint="#5C91C56F"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_rounded_corner"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageViewRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground" />
+
+
+    <Button
+        android:id="@+id/selectImage"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Add Recipe" />
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:numStars="5"
+        android:progressTint="#53C857"
+        android:rating="0.0"
+        android:stepSize="0.5" />
+
+</LinearLayout>
