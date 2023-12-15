@@ -19,7 +19,7 @@ class LoginActivity : AppCompatActivity() {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_login)
 
-            usersList.add(User("naol", "naol@naol", "naol", ))
+            usersList.add(User("merha", "merhatsidk@gmail.com", "merha", ))
 
             val usernameEditText = findViewById<EditText>(R.id.textUsername)
             val passwordEditText = findViewById<EditText>(R.id.textPassword)
